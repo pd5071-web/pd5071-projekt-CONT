@@ -53,7 +53,7 @@ docker exec -it nginx_container ls /usr/share/nginx/html  ~  Sprawdza, czy rapor
 Raport FastQC jest dostępny w przeglądarce pod adresem:
 http://localhost:8080
 
-## Wolumeny i sieć
+### Wolumeny i sieć
 - fastqc_results – wolumen przechowujący wyniki analizy
 - fastqc_network – sieć Docker do komunikacji kontenerów
 
